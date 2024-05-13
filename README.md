@@ -1,1 +1,1 @@
-# head-first-design-patterns-in-python
+# Head First. Design Patterns. Examples in Python
