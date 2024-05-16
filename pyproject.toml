@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "head first design patterns examples in python"
+version = "0.1.0"
+description = "From Java to Python"
+authors = ["Dmitrii Golitsyn <dgolitsyn@icloud.com>"]
+license = "MIT"
+readme = "README.md"
+packages = []
+
+[tool.poetry.dependencies]
+python = "3.12.2"
+pytest = "^8.2.0"
+ruff = "^0.4.4"
+mypy = "^1.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.ruff.format]
+quote-style = "single"  # use single quotes for strings
